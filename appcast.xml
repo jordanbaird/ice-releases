@@ -3,12 +3,12 @@
     <channel>
         <title>Ice</title>
         <item>
-            <title>0.7.0</title>
-            <pubDate>Mon, 11 Mar 2024 12:57:55 -0600</pubDate>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <title>0.7.1</title>
+            <pubDate>Tue, 12 Mar 2024 18:28:03 -0600</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jordanbaird/ice-releases/releases/download/0.7.0/Ice.zip" length="2793460" type="application/octet-stream" sparkle:edSignature="DxJq/MPk/Uo3FIe22oP2NjFS/uHdU8x8WeDgaAVzuwPOnrS0/8FmN7dy15svyGA0S66HzUE3/CRFPvkRooV/Ag=="/>
+            <enclosure url="https://github.com/jordanbaird/ice-releases/releases/download/0.7.1/Ice.zip" length="2779517" type="application/octet-stream" sparkle:edSignature="LAM8M7xOpmJb8CANQQCd0/VVLJCer0m0FjZgReLydFqhap6cy5NrmMFUIYSdt1IJInY/gLFBTu0PJHAkN/0bDg=="/>
         </item>
     </channel>
 </rss>
