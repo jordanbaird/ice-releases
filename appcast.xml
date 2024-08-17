@@ -3,12 +3,31 @@
     <channel>
         <title>Ice</title>
         <item>
-            <title>0.10.4</title>
-            <pubDate>Wed, 31 Jul 2024 17:52:14 -0600</pubDate>
-            <sparkle:version>56</sparkle:version>
-            <sparkle:shortVersionString>0.10.4</sparkle:shortVersionString>
+            <title>0.10.5</title>
+            <pubDate>Fri, 16 Aug 2024 20:10:31 -0600</pubDate>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>0.10.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jordanbaird/ice-releases/releases/download/0.10.4/Ice.zip" length="3097312" type="application/octet-stream" sparkle:edSignature="fnxKW69OxzQfoneg4HJlUfnawQzXsCBw9oj+p3xfnTmHC0Yw3gTd8elqQZXKD83kxxqf+NAzql+GZ6gYfYAMDQ=="/>
+            <description><![CDATA[## What's New
+* Accessibility support for Ice Bar.
+* Partial accessibility support for menu bar item layout (work in progress).
+* Various UI updates.
+
+## Bug Fixes
+* Fixed the occurrence of false positives in menu bar item responsiveness check.
+* Temporarily shown menu bar items are now remembered if their app is restarted.
+* Fixed potential undefined behavior when toggling between sections in Ice Bar.
+* Fixed an issue that could cause the hidden section to toggle when clicking the Apple menu.
+
+## Other Changes
+* Restored the ability to choose the location of the Ice Bar.
+
+## New Contributors
+* @Olshansk made their first contribution in https://github.com/jordanbaird/Ice/pull/302
+
+**Full Changelog**: https://github.com/jordanbaird/Ice/compare/0.10.4...0.10.5
+]]></description>
+            <enclosure url="https://github.com/jordanbaird/ice-releases/releases/download/0.10.5/Ice.zip" length="3119603" type="application/octet-stream" sparkle:edSignature="10Q/gRiigqffyE718bz1+kKYYXVIWW9dFpL69IY+Nn7yZMZGMyXD6J3EI4C1PVDPAoJ2VXZHHhlTzAEiEWBRDw=="/>
         </item>
     </channel>
 </rss>
