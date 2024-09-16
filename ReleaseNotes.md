@@ -1,3 +1,8 @@
+# Ice 0.11.1
+
+## What's New
+* Minor UI fixes.
+
 # Ice 0.11.0
 
 ## What's New
