@@ -1,3 +1,9 @@
+# Ice 0.11.2
+
+## What's New
+* Bug fixes and UI adjustments.
+* Ice's menu bar items now treat Control+clicks as right clicks.
+
 # Ice 0.11.1
 
 ## What's New
