@@ -169,19 +169,36 @@
   </style>
 </head>
 <body>
-<h1 id="ice-0112">Ice 0.11.2</h1>
+<h1 id="ice-0113">Ice 0.11.3</h1>
 <h2 id="whats-new">What's New</h2>
+<ul>
+<li>The "always hidden" section is now disabled by default for new
+users.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed screen capture permissions issue on macOS 15 Sequoia.</li>
+<li>Fixed an issue where the Ice Bar wasn't being sized properly.</li>
+<li>Menu bar search panel now always appears on the correct screen,
+regardless of the method used to show it.</li>
+</ul>
+<h2 id="other-changes">Other Changes</h2>
+<ul>
+<li>Code cleanup.</li>
+</ul>
+<h1 id="ice-0112">Ice 0.11.2</h1>
+<h2 id="whats-new-1">What's New</h2>
 <ul>
 <li>Bug fixes and UI adjustments.</li>
 <li>Ice's menu bar items now treat Control+clicks as right clicks.</li>
 </ul>
 <h1 id="ice-0111">Ice 0.11.1</h1>
-<h2 id="whats-new-1">What's New</h2>
+<h2 id="whats-new-2">What's New</h2>
 <ul>
 <li>Minor UI fixes.</li>
 </ul>
 <h1 id="ice-0110">Ice 0.11.0</h1>
-<h2 id="whats-new-2">What's New</h2>
+<h2 id="whats-new-3">What's New</h2>
 <ul>
 <li>Brand new UI implementation.</li>
 <li>Search menu bar items using a custom hotkey.</li>
@@ -189,7 +206,7 @@
 <li>Customize the time it takes to rehide temporarily shown menu bar
 items.</li>
 </ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
+<h2 id="bug-fixes-1">Bug Fixes</h2>
 <ul>
 <li>When temporarily showing menu bar items, Ice no longer moves them if
 they are already shown.</li>
@@ -205,14 +222,14 @@ resolved by logging out.</li>
 resolved by restarting Ice.</li>
 </ul>
 <h1 id="ice-0105">Ice 0.10.5</h1>
-<h2 id="whats-new-3">What's New</h2>
+<h2 id="whats-new-4">What's New</h2>
 <ul>
 <li>Accessibility support for Ice Bar.</li>
 <li>Partial accessibility support for menu bar item layout (work in
 progress).</li>
 <li>Various UI updates.</li>
 </ul>
-<h2 id="bug-fixes-1">Bug Fixes</h2>
+<h2 id="bug-fixes-2">Bug Fixes</h2>
 <ul>
 <li>Fixed the occurrence of false positives in menu bar item
 responsiveness check.</li>
@@ -223,19 +240,19 @@ Ice Bar.</li>
 <li>Fixed an issue that could cause the hidden section to toggle when
 clicking the Apple menu.</li>
 </ul>
-<h2 id="other-changes">Other Changes</h2>
+<h2 id="other-changes-1">Other Changes</h2>
 <ul>
 <li>Restored the ability to choose the location of the Ice Bar.</li>
 </ul>
 <h1 id="ice-0104">Ice 0.10.4</h1>
-<h2 id="whats-new-4">What's New</h2>
+<h2 id="whats-new-5">What's New</h2>
 <ul>
 <li>Added the ability to set a custom delay for the "show on hover"
 feature.</li>
 <li>Improved the wording of settings and descriptions throughout the
 app.</li>
 </ul>
-<h2 id="bug-fixes-2">Bug Fixes</h2>
+<h2 id="bug-fixes-3">Bug Fixes</h2>
 <ul>
 <li>Fixed a regression that caused application menus to sometimes fail
 to hide.</li>
@@ -248,13 +265,13 @@ compatibility with apps that utilize notch space.</li>
 <li>Improved menu bar appearance reliability for apps that dynamically
 update their application menus.</li>
 </ul>
-<h2 id="other-changes-1">Other Changes</h2>
+<h2 id="other-changes-2">Other Changes</h2>
 <ul>
 <li>To keep the available options simple, the ability to set the
 location of the Ice Bar has been removed.</li>
 </ul>
 <h1 id="ice-0103">Ice 0.10.3</h1>
-<h2 id="whats-new-5">What's New</h2>
+<h2 id="whats-new-6">What's New</h2>
 <ul>
 <li>Items shown by the Ice Bar are no longer immediately rehidden when
 the Ice Bar is opened again. This allows multiple items to be shown at
@@ -264,7 +281,7 @@ fixed.</li>
 <li>Simplified options in settings for a more streamlined
 experience.</li>
 </ul>
-<h2 id="bug-fixes-3">Bug Fixes</h2>
+<h2 id="bug-fixes-4">Bug Fixes</h2>
 <ul>
 <li>More robust rehiding for items shown by Ice Bar.</li>
 <li>Improved consistency of the "Focused app" rehide strategy when
@@ -275,14 +292,14 @@ multi-display setups.</li>
 movement timeouts.</li>
 </ul>
 <h1 id="ice-0102">Ice 0.10.2</h1>
-<h2 id="whats-new-6">What's New</h2>
+<h2 id="whats-new-7">What's New</h2>
 <ul>
 <li>Improved the logic for retrieving menu bar items.</li>
 <li>Menu bar item images no longer update if the app isn't focused,
 leading to increased efficiency and the purple screen capture icon
 appearing less often.</li>
 </ul>
-<h2 id="bug-fixes-4">Bug Fixes</h2>
+<h2 id="bug-fixes-5">Bug Fixes</h2>
 <ul>
 <li>Fixed a crash that would occur when the Ice Bar was longer than the
 width of the screen.</li>
@@ -299,7 +316,7 @@ both sides when using the inset appearance on screens with a notch.</li>
 <p>This is a hot fix release for a bug that was introduced in 0.10.0
 that could prevent one or more sections from hiding.</p>
 <h1 id="ice-0100">Ice 0.10.0</h1>
-<h2 id="whats-new-7">What's New</h2>
+<h2 id="whats-new-8">What's New</h2>
 <ul>
 <li>Menu bar items can now be shown in a secondary bar below the menu
 bar! (look for "Use Ice Bar" in the "General" settings pane).</li>
@@ -312,7 +329,7 @@ the hidden section.</li>
 <li>Ice now launches in the background by default.</li>
 <li>Ice now uses the GPL-3.0 license.</li>
 </ul>
-<h2 id="bug-fixes-5">Bug Fixes</h2>
+<h2 id="bug-fixes-6">Bug Fixes</h2>
 <ul>
 <li>The menu bar appearance overlay should now work with fullscreen in
 apps that don't use the default macOS fullscreen interface, such as VLC
@@ -329,11 +346,11 @@ has a notch and the other does not).</li>
 apps.</li>
 </ul>
 <h1 id="ice-090">Ice 0.9.0</h1>
-<h2 id="whats-new-8">What's New</h2>
+<h2 id="whats-new-9">What's New</h2>
 <ul>
 <li>Slight UI redesign.</li>
 </ul>
-<h2 id="bug-fixes-6">Bug Fixes</h2>
+<h2 id="bug-fixes-7">Bug Fixes</h2>
 <ul>
 <li>Fixed menu bar items not hiding on secondary screens when the "show
 section dividers" feature is disabled.</li>
@@ -346,7 +363,7 @@ Features like "show on hover" and "show on click" should now behave
 correctly on external displays.</li>
 <li>Fixed an occasional bug where hotkeys weren't deleting.</li>
 </ul>
-<h2 id="other-changes-2">Other Changes</h2>
+<h2 id="other-changes-3">Other Changes</h2>
 <ul>
 <li>Optimizations.</li>
 <li>Menu bar appearance only updates the components that need it.</li>
@@ -354,13 +371,13 @@ correctly on external displays.</li>
 <li>You can now change the opacity of the menu bar border.</li>
 </ul>
 <h1 id="ice-080">Ice 0.8.0</h1>
-<h2 id="whats-new-9">What's New</h2>
+<h2 id="whats-new-10">What's New</h2>
 <ul>
 <li>Hotkeys have been reimplemented to support new actions.</li>
 <li>UI improvements.</li>
 <li>Performance optimizations.</li>
 </ul>
-<h2 id="bug-fixes-7">Bug Fixes</h2>
+<h2 id="bug-fixes-8">Bug Fixes</h2>
 <ul>
 <li>Fixed some rare issues with custom menu bar appearances.</li>
 </ul>
@@ -373,21 +390,21 @@ versions. If you wish to downgrade to a previous version, some of your
 settings will be lost.</p>
 </div>
 <h1 id="ice-071">Ice 0.7.1</h1>
-<h2 id="whats-new-10">What's New</h2>
+<h2 id="whats-new-11">What's New</h2>
 <ul>
 <li>Minor efficiency improvements.</li>
 <li>UI tweaks.</li>
 <li>Code cleanup.</li>
 <li>Internal reorganization.</li>
 </ul>
-<h2 id="bug-fixes-8">Bug Fixes</h2>
+<h2 id="bug-fixes-9">Bug Fixes</h2>
 <ul>
 <li>Fixed a bug that prevented Ice from seeing all menu bar items. This
 was affecting the "hide application menus" feature and the "menu bar
 appearance" features.</li>
 </ul>
 <h1 id="ice-070">Ice 0.7.0</h1>
-<h2 id="whats-new-11">What's New</h2>
+<h2 id="whats-new-12">What's New</h2>
 <ul>
 <li>The "always hidden" section is now always enabled.</li>
 <li>The divider icons between sections can now be hidden.</li>
@@ -405,7 +422,7 @@ with a modifier key.</li>
 <p>Currently, only one action is available, which toggles the "always
 hidden" section. More actions are on the way!</p>
 </div>
-<h2 id="bug-fixes-9">Bug Fixes</h2>
+<h2 id="bug-fixes-10">Bug Fixes</h2>
 <ul>
 <li>Fixed occasional visual glitching when adjusting the menu bar
 appearance.</li>
@@ -413,22 +430,22 @@ appearance.</li>
 items.</li>
 </ul>
 <h1 id="ice-063">Ice 0.6.3</h1>
-<h2 id="whats-new-12">What's New</h2>
+<h2 id="whats-new-13">What's New</h2>
 <ul>
 <li>Minor user experience improvements.</li>
 </ul>
-<h2 id="bug-fixes-10">Bug Fixes</h2>
+<h2 id="bug-fixes-11">Bug Fixes</h2>
 <ul>
 <li>Fixed menu bar appearance not updating in certain cases.</li>
 </ul>
 <h1 id="ice-062">Ice 0.6.2</h1>
-<h2 id="whats-new-13">What's New</h2>
+<h2 id="whats-new-14">What's New</h2>
 <ul>
 <li>When show-on-click is enabled, you can now click inside an empty
 area of the menu bar while the "Hidden" section is visible to show the
 "Always hidden" section as well.</li>
 </ul>
-<h2 id="bug-fixes-11">Bug Fixes</h2>
+<h2 id="bug-fixes-12">Bug Fixes</h2>
 <ul>
 <li>Fixed a visual glitch that would appear when using the split menu
 bar while the "Always hidden" section was disabled.</li>
@@ -438,13 +455,13 @@ launch on some machines.</li>
 quitting the app.</li>
 </ul>
 <h1 id="ice-061">Ice 0.6.1</h1>
-<h2 id="bug-fixes-12">Bug Fixes</h2>
+<h2 id="bug-fixes-13">Bug Fixes</h2>
 <ul>
 <li>DRM media no longer flickers when Ice is open.</li>
 <li>Fixed a visual glitch that caused split menu bar shapes to sometimes
 disappear.</li>
 </ul>
-<h2 id="other-changes-3">Other Changes</h2>
+<h2 id="other-changes-4">Other Changes</h2>
 <ul>
 <li>Minor UI tweaks.</li>
 </ul>
@@ -468,7 +485,7 @@ disappear.</li>
 <li>You can now right-click an empty space in the menu bar to edit its
 appearance.</li>
 </ul>
-<h2 id="bug-fixes-13">Bug Fixes</h2>
+<h2 id="bug-fixes-14">Bug Fixes</h2>
 <ul>
 <li>Menu bar appearance customizations should now appear across multiple
 screens.</li>
