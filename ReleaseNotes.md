@@ -1,3 +1,16 @@
+# Ice 0.11.3
+
+## What's New
+* The "always hidden" section is now disabled by default for new users.
+
+## Bug Fixes
+* Fixed screen capture permissions issue on macOS 15 Sequoia.
+* Fixed an issue where the Ice Bar wasn't being sized properly.
+* Menu bar search panel now always appears on the correct screen, regardless of the method used to show it.
+
+## Other Changes
+* Code cleanup.
+
 # Ice 0.11.2
 
 ## What's New
