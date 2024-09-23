@@ -1,3 +1,12 @@
+# Ice 0.11.4
+
+## What's New
+* The "Default" Ice Bar location has been renamed to "Dynamic".
+* Lots of under the hood improvements.
+
+## Bug Fixes
+* Fixed an issue where the app would fail to properly launch.
+
 # Ice 0.11.3
 
 ## What's New
