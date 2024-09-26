@@ -1,3 +1,8 @@
+# Ice 0.11.5
+
+## Bug Fixes
+* Fixed an issue where items couldn't be dragged to empty menu bar sections.
+
 # Ice 0.11.4
 
 ## What's New
