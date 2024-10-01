@@ -1,3 +1,15 @@
+# Ice 0.11.6
+
+## What's New
+* Added a hotkey to enable/disable the Ice Bar.
+* When Command+dragging items in the menu bar, all sections are now shown when the Ice Bar is enabled.
+
+## Bug Fixes
+* Fixed an issue with menu bar item image caching.
+
+## Other Changes
+* Various minor code improvements.
+
 # Ice 0.11.5
 
 ## Bug Fixes
