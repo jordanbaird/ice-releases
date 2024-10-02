@@ -1,3 +1,16 @@
+# Ice 0.11.7
+
+## What's New
+* System notifications for updates.
+
+## Bug Fixes
+* Fixed issues with granting permissions.
+* Fixed an issue where the app would fail to initialize after launching.
+* Fixed an issue preventing the settings window from opening after launching at login.
+
+## Other Changes
+* Visual adjustments and performance improvements.
+
 # Ice 0.11.6
 
 ## What's New
