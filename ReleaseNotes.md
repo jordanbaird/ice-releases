@@ -1,3 +1,14 @@
+# Ice 0.11.8
+
+## What's New
+* Minor interface changes.
+* Adjusted rendering of menu bar shapes.
+* Ice now dynamically adjusts its sidebar item sizes to better respect system settings.
+
+## Bug Fixes
+* Fixed rare cases of unexpected mouse movement when rehiding temporarily shown items.
+* Fixed an issue where long application menus would interfere with temporarily showing items.
+
 # Ice 0.11.7
 
 ## What's New
