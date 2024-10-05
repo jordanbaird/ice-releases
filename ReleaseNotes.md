@@ -1,3 +1,7 @@
+# Ice 0.11.8.1
+
+This is a hot fix release that reverts menu bar shape rendering on screens without a notch.
+
 # Ice 0.11.8
 
 ## What's New
