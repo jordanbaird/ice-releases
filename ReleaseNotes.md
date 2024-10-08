@@ -1,3 +1,17 @@
+# Ice 0.11.9
+
+## What's New
+* Added a setting to show all sections when dragging items.
+
+## Bug Fixes
+* Fixed some minor behavior glitches with Smart rehide on Sequoia.
+* Application menus now correctly hide when showing the always-hidden section.
+* Fixed a bug where Ice's app icon would remain in the Dock and app switcher after unhiding application menus.
+* The update interface should no longer appear behind other apps when checking for updates from Ice's menu.
+
+## Other Changes
+* Reworked menu bar item retrieval and caching for better reliability.
+
 # Ice 0.11.8.1
 
 This is a hot fix release that reverts menu bar shape rendering on screens without a notch.
