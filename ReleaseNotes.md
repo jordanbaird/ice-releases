@@ -1,3 +1,16 @@
+# Ice 0.11.10
+
+## What's New
+* Menu bar search updates.
+* Added the ability to set different menu bar appearances for light and dark mode.
+
+## Bug Fixes
+* Fixed a rare case of menu bar items failing to move.
+
+## Other Changes
+* Improved menu bar item caching.
+* Lots of under-the-hood changes and improvements.
+
 # Ice 0.11.9
 
 ## What's New
