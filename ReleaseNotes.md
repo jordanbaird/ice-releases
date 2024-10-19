@@ -1,3 +1,9 @@
+# Ice 0.11.11
+
+## Bug Fixes
+* Fixed an issue where Ice would crash on launch for some users.
+* Fixed a bug preventing the menu bar search panel from appearing in full screen.
+
 # Ice 0.11.10
 
 ## What's New
