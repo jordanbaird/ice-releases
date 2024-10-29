@@ -1,3 +1,11 @@
+# Ice 0.11.12
+
+## What's New
+* Ice can now work in a limited mode without screen recording permissions.
+
+## Bug Fixes
+* Fixes a bug where Ice would think a modifier key was pressed and mistakenly prevent some users from moving items.
+
 # Ice 0.11.11
 
 ## Bug Fixes
